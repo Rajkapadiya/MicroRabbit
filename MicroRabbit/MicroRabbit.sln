@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{7D50D8C6-ECF0-49B5-BEA9-544DAD747BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{60908046-893E-4A68-B79E-F51DD53380F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{60908046-893E-4A68-B79E-F51DD53380F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IOC", "MicroRabbit.Infra.IOC\MicroRabbit.Infra.IOC.csproj", "{631F45F0-C54E-4368-9D82-06C654BBFAA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{60908046-893E-4A68-B79E-F51DD53380F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60908046-893E-4A68-B79E-F51DD53380F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60908046-893E-4A68-B79E-F51DD53380F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631F45F0-C54E-4368-9D82-06C654BBFAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631F45F0-C54E-4368-9D82-06C654BBFAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631F45F0-C54E-4368-9D82-06C654BBFAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631F45F0-C54E-4368-9D82-06C654BBFAA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7D50D8C6-ECF0-49B5-BEA9-544DAD747BE8} = {C56B03F1-1601-44AA-BC7A-67D05636475D}
 		{60908046-893E-4A68-B79E-F51DD53380F3} = {6FFFE7DA-E22D-4EF7-A770-9BB44DA0AB46}
+		{631F45F0-C54E-4368-9D82-06C654BBFAA0} = {8FA15107-7A2D-4469-9F3C-58168C4D1844}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31FF42CF-6E29-4BE7-9362-A24D405905BE}
