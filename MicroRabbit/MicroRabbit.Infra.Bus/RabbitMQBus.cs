@@ -101,7 +101,7 @@ namespace MicroRabbit.Infra.Bus
             }
             catch (Exception ex)
             {
-
+                throw new ArgumentException(ex.Message,"This From Consumer_Received function");
             }
         }
 
